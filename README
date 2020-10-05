@@ -1,0 +1,9 @@
+clangs is a collection of header files.
+
+Each header translates the keywords, libc functions and types of the C language.
+
+Only the preprocessing directives aren't translated.
+
+Usage:
+Add the include of a clang language file at each first line of a *.C file.
+#include "clangs_fr.h" // for example.
